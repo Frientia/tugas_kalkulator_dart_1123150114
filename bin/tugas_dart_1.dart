@@ -6,7 +6,7 @@ import 'dart:io';
     if (input == null) continue;
     final value = double.tryParse(input.trim());
     if (value != null) return value;
-    print('Input tidak valid. Masukkan angka.');
+    print('Input tidak valid. Masukkan angka!!');
     }
   }
 
